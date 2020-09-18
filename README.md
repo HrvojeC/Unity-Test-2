@@ -4,17 +4,16 @@ This is Unity project made as a skill test:
 * Top view 2D game
 * Generating grid
 * Implemented pathfinding A* algoritm
-* Colorization of selected objects in scene
+* Colorization of selected objects in the scene
 
 ### Dependencies
-Unity Version: 2019.4.10f1
-Whole project is uploaded, all you need to run it is proper version of Unity
+Unity Version: 2019.4.10f1, whole project folder is uploaded, all you need to run this project is proper version of Unity
 
 ### Controls
-After selecting start point and endpoint player can see process of finding a closest path between these two points 
+After selecting start point and end point player can see the process of finding closest path between these two points 
 
 #### Editor controls (presets)
-* Grid size - x & y values can be changed in "Terrain_Main" script attached to the "GameManager" object
+* Grid size - x & y values can be changed in the "Terrain_Main" script attached to the "GameManager" object
 
 #### Ingame controls
 * Left mouse button click - selects point in the grid and sets it as "EndPoint" (If EndPoint already existed, set it as new StartPoint before storing new selection)
